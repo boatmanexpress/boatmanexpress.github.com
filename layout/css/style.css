@@ -118,6 +118,10 @@ header {
   border:1px solid #21556D;
 }
 
+#callout a {
+  color:#FFF;
+}
+
 footer {
   font-family:'HelveticaNeue';
   font-size:13px;
