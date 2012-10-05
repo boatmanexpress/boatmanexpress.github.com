@@ -1,5 +1,10 @@
 @import url('fonts.css');
 
+body {
+  font-size:15px;
+  line-height:22px;
+}
+
 a, a:visited {
   color:#3583A6;
 }
