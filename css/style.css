@@ -172,6 +172,51 @@ footer {
   font-size:15px;
 }
 
+/* SUB-NAV */
+#sidebar-nav {
+  background:#FFF;
+  z-index:1000;
+  border-bottom:1px solid #CCC;
+}
+#sidebar-nav ul {
+  margin:0;
+  padding:0;
+  text-align:center;
+  display:block;
+}
+
+#sidebar-nav ul li {
+  list-style:none;
+  float:none;
+  *float:left; /* IE7 hack */
+  display:inline-block;
+  margin:0;
+  text-align:left;
+}
+
+#sidebar-nav ul li.first { margin-left:0; }
+#sidebar-nav ul li.last { margin-right:0; }
+
+#sidebar-nav ul li a {
+  color:#999;
+  font-weight:500;
+  font-size:14px;
+  line-height:52px;
+  display:block;
+  padding:4px 14px 0;
+  border-bottom:4px solid #FFF;
+}
+
+#sidebar-nav ul li a:hover, #sidebar-nav ul li.active a {
+  color:#284759;
+  text-decoration:none;
+  border-bottom:4px solid #CCC;
+}
+
+#sidebar-nav ul li.active a {
+  border-bottom:4px solid #284759;
+}
+
 /* Retina Display */
 @media 
   only screen and (-webkit-min-device-pixel-ratio: 2),
