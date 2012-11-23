@@ -173,7 +173,7 @@ footer {
 }
 
 /* SUB-NAV */
-#sidebar-nav {
+#services-nav {
   margin:0;
   padding:0;
   text-align:center;
@@ -183,7 +183,7 @@ footer {
   border-bottom:1px solid #CCC;
 }
 
-#sidebar-nav li {
+#services-nav li {
   list-style:none;
   float:none;
   *float:left; /* IE7 hack */
@@ -192,10 +192,10 @@ footer {
   text-align:left;
 }
 
-#sidebar-nav li.first { margin-left:0; }
-#sidebar-nav li.last { margin-right:0; }
+#services-nav li.first { margin-left:0; }
+#services-nav li.last { margin-right:0; }
 
-#sidebar-nav li a {
+#services-nav li a {
   color:#999;
   font-weight:500;
   font-size:14px;
@@ -205,13 +205,13 @@ footer {
   border-bottom:4px solid #FFF;
 }
 
-#sidebar-nav li a:hover, #sidebar-nav li.active a {
+#services-nav li a:hover, #services-nav li.active a {
   color:#284759;
   text-decoration:none;
   border-bottom:4px solid #CCC;
 }
 
-#sidebar-nav li.active a {
+#services-nav li.active a {
   border-bottom:4px solid #284759;
 }
 
