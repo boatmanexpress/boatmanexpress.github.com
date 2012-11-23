@@ -178,6 +178,8 @@ footer {
   z-index:1000;
   border-bottom:1px solid #CCC;
   width:100%;
+  margin-top:-60px;
+  margin-bottom:40px;
 }
 
 #services-nav {
@@ -210,13 +212,13 @@ footer {
 }
 
 #services-nav li a:hover, #services-nav li.active a {
-  color:#284759;
+  color:#3583A6;
   text-decoration:none;
   border-bottom:4px solid #CCC;
 }
 
 #services-nav li.active a {
-  border-bottom:4px solid #284759;
+  border-bottom:4px solid #3583A6;
 }
 
 /* Retina Display */
