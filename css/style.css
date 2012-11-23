@@ -172,15 +172,19 @@ footer {
   font-size:15px;
 }
 
-/* SUB-NAV */
+/* SERVICES-NAV */
+#services-nav-wrapper {
+  background:#FFF;
+  z-index:1000;
+  border-bottom:1px solid #CCC;
+  width:100%;
+}
+
 #services-nav {
   margin:0;
   padding:0;
   text-align:center;
   display:block;
-  background:#FFF;
-  z-index:1000;
-  border-bottom:1px solid #CCC;
 }
 
 #services-nav li {
