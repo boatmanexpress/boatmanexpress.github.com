@@ -150,6 +150,21 @@ footer {
 
 .address { float:right; }
 
+.sidebar {
+  background:#E9E9E9;
+  padding:10px;
+}
+
+.sidebar h3 {
+  background:#3583A6;
+  color:#FFF;
+  padding:0 10px;
+  margin-left:-10px;
+  margin-right:-10px;
+  line-height:1.4em;
+  font-size:15px;
+}
+
 /* Retina Display */
 @media 
   only screen and (-webkit-min-device-pixel-ratio: 2),
