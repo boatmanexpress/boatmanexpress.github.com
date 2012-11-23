@@ -173,19 +173,19 @@ footer {
 }
 
 /* SUB-NAV */
-#sidebar-nav {
+#services-nav {
   background:#FFF;
   z-index:1000;
   border-bottom:1px solid #CCC;
 }
-#sidebar-nav ul {
+#services-nav ul {
   margin:0;
   padding:0;
   text-align:center;
   display:block;
 }
 
-#sidebar-nav ul li {
+#services-nav ul li {
   list-style:none;
   float:none;
   *float:left; /* IE7 hack */
@@ -194,10 +194,10 @@ footer {
   text-align:left;
 }
 
-#sidebar-nav ul li.first { margin-left:0; }
-#sidebar-nav ul li.last { margin-right:0; }
+#services-nav ul li.first { margin-left:0; }
+#services-nav ul li.last { margin-right:0; }
 
-#sidebar-nav ul li a {
+#services-nav ul li a {
   color:#999;
   font-weight:500;
   font-size:14px;
@@ -207,13 +207,13 @@ footer {
   border-bottom:4px solid #FFF;
 }
 
-#sidebar-nav ul li a:hover, #sidebar-nav ul li.active a {
+#services-nav ul li a:hover, #services-nav ul li.active a {
   color:#284759;
   text-decoration:none;
   border-bottom:4px solid #CCC;
 }
 
-#sidebar-nav ul li.active a {
+#services-nav ul li.active a {
   border-bottom:4px solid #284759;
 }
 
