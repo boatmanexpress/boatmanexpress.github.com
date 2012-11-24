@@ -18,6 +18,19 @@ header {
   padding:20px 0;
 }
 
+ul.item-list {
+  list-style-image:url('../img/tick.png');
+  margin:0;
+  padding:0;
+}
+
+ul.item-list li {
+  font-size:18px;
+  line-height:1.6em;
+  margin:0 0 4px;
+  padding:0 0 0 14px;
+}
+
 #logo {
   height:64px;
   width:100%;
@@ -139,7 +152,6 @@ header {
 }
 
 footer {
-  font-family:'HelveticaNeue';
   font-size:13px;
   color:#666;
   background:#F1F1F1;
