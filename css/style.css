@@ -1,8 +1,9 @@
 @import url('fonts.css');
 
 body {
-  font-size:15px;
-  line-height:22px;
+  font-family:'Proxima Nova';
+  font-size:18px;
+  line-height:1.6em;
 }
 
 a, a:visited {
@@ -91,7 +92,6 @@ header {
 }
 
 #intro h2 span {
-  font-family:'Proxima Nova';
   display:inline-block;
   background:#000;
   background:rgba(0,0,0,0.65);
@@ -104,8 +104,8 @@ header {
 }
 
 #content {
-  font-family:'HelveticaNeue';
-  font-size:13px;
+  font-size:18px;
+  line-height:1.6em;
   color:#3D3D3D;
   padding:60px 0;
   width:100%;
@@ -189,7 +189,7 @@ footer {
 
 #services-nav li {
   list-style:none;
-  float:none;
+  float:left;
   *float:left; /* IE7 hack */
   display:inline-block;
   margin:0;
