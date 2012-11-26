@@ -33,14 +33,14 @@ ul.item-list li {
 }
 
 #logo {
-  height:64px;
+  height:53px;
   width:100%;
-  background-image:url('../img/logo_300.png');
+  background-image:url('../img/logo_380.png');
   background-repeat:no-repeat;
   background-position:left center;
   display:block;
   text-indent:-20000px;
-  margin:0;
+  margin:5px;
   padding:0;
 }
 
@@ -249,7 +249,7 @@ footer {
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min-device-pixel-ratio: 2) {
   #logo {
-    background-image:url('../img/logo_300@2x.png');
-    background-size:300px 42px;
+    background-image:url('../img/logo_380@2x.png');
+    background-size:380px 53px;
   }
 }
