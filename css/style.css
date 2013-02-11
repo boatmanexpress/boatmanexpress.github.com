@@ -92,6 +92,20 @@ ul.item-list li {
   border-bottom:1px dotted #3583A6;
 }
 
+#phone {
+  background:url('../img/phone.gif') no-repeat 0 0;
+  line-height:16px;
+  display:block;
+  position:absolute;
+  top:8px;
+  right:0;
+  padding:0 0 0 26px;
+  margin:0;
+  color:#777;
+  font-weight:500;
+  font-size:14px;
+}
+
 #title {
   background:#3583A6;
   width:100%;
