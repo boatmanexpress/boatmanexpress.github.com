@@ -33,14 +33,14 @@ ul.item-list li {
 }
 
 #logo {
-  height:53px;
-  width:100%;
-  background-image:url('../img/logo_380.png');
+  height:60px;
+  width:300px;
+  background-image:url('../img/logo_300.png');
   background-repeat:no-repeat;
   background-position:left center;
   display:block;
   text-indent:-20000px;
-  margin:5px;
+  margin:0;
   padding:0;
 }
 
@@ -52,7 +52,7 @@ ul.item-list li {
 }
 
 #nav li {
-  margin:0 0 0 24px;
+  margin:0 0 0 30px;
   padding:0;
   float:left;
   display:inline-block;
@@ -75,7 +75,7 @@ ul.item-list li {
   color:#FFF;
   background:#3583A6;
   text-transform:uppercase;
-  padding:0 6px;
+  padding:0 10px;
   border-radius:3px;
 }
 
@@ -256,14 +256,4 @@ footer {
 
 #services-nav li.active a {
   border-bottom:4px solid #3583A6;
-}
-
-/* Retina Display */
-@media 
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-device-pixel-ratio: 2) {
-  #logo {
-    background-image:url('../img/logo_380@2x.png');
-    background-size:380px 53px;
-  }
 }
