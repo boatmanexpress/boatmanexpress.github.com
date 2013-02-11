@@ -33,7 +33,7 @@ ul.item-list li {
 }
 
 #logo {
-  height:60px;
+  height:100px;
   width:300px;
   background-image:url('../img/logo_300.png');
   background-repeat:no-repeat;
@@ -69,6 +69,7 @@ ul.item-list li {
   line-height:30px;
   padding:0;
   margin:0;
+  display:block;
 }
 
 #nav li.quote a {
@@ -77,6 +78,7 @@ ul.item-list li {
   text-transform:uppercase;
   padding:0 10px;
   border-radius:3px;
+  font-weight:500;
 }
 
 #nav li.quote a:hover {
