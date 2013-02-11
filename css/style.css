@@ -97,6 +97,9 @@ ul.item-list li {
   height:360px;
   border-top:1px solid #999;
   border-bottom:1px solid #999;
+}
+
+#intro .block {
   background:#000;
   background:rgba(0,0,0,0.65);
   color:#FFF;
@@ -107,7 +110,7 @@ ul.item-list li {
   margin:40px 0 0;
 }
 
-#intro h2 {
+#intro .block h2 {
   display:block;
   font-weight:800;
   font-size:46px;
