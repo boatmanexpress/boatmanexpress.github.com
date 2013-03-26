@@ -59,21 +59,15 @@
     </script>
 
     <script type="text/javascript">
-      var GoSquared = {};
-      GoSquared.acct = "GSN-744044-D";
-      (function(w){
-        function gs(){
-          w._gstc_lt = +new Date;
-          var d = document, g = d.createElement("script");
-          g.type = "text/javascript";
-          g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
-          var s = d.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(g, s);
-        }
-        w.addEventListener ?
-          w.addEventListener("load", gs, false) :
-          w.attachEvent("onload", gs);
-      })(window);
+      var clicky_site_ids = clicky_site_ids || [];
+      clicky_site_ids.push(100594801);
+      (function() {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//static.getclicky.com/js';
+        ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+      })();
     </script>
 
   </body>
