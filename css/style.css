@@ -20,6 +20,12 @@ header {
   padding:20px 0;
 }
 
+.light {
+  background:#EFEFEF;
+  padding:20px;
+  display:block;
+}
+
 ul.item-list {
   list-style-image:url('../img/tick.png');
   margin:0;
