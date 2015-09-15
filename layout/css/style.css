@@ -8,6 +8,18 @@ a:hover, a:focus {
   color:#21556D;
 }
 
+a.button {
+  background: #21556D;
+  color: #FFF;
+  padding: 0 10px;
+  line-height: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
 header {
   padding:20px 0;
 }
@@ -135,7 +147,7 @@ footer {
 .address { float:right; }
 
 /* Retina Display */
-@media 
+@media
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min-device-pixel-ratio: 2) {
   #logo {
