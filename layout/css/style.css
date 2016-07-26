@@ -95,6 +95,19 @@ header {
   padding:0 20px;
 }
 
+ul.intro-list {
+  margin: 0;
+  padding: 0;
+}
+
+ul.intro-list li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
 #content {
   font-family:'HelveticaNeue';
   font-size:13px;
